@@ -1,0 +1,26 @@
+add,num1,num2,return,,,
+,3,5,8,,,
+,,,,,,
+multiply,num1,num2,i,i < num2,"multi = add(multi , num1)",return
+,4,6,0,true,0 + 4 = 4,?
+,-,-,1,true,4 + 4 = 8,?
+,-,-,2,true,8 + 4 = 12,?
+,,,,,,
+,-,-,5,true,20 + 4 = 24,?
+,-,-,6,false,-,24
+,,,,,,
+power,x,n,i,i < n,"expo=multi(expo, x)",return
+,3,4,0,true,1 + 1 + 1 = 3,?
+,-,-,1,true,3 + 3 + 3 = 9,?
+,-,-,2,true,9 + 9 + 9 = 27,?
+,-,-,3,true,27 + 27 + 27 = 81,?
+,-,-,4,false,-,81
+,,,,,,
+factorial,num,i,i <= num,"result=multiply(result, i)",return,
+,5,1,true,1,?,
+,-,2,true,1 + 1 = 2,?,
+,-,3,true,2 + 2 + 2 = 6,?,
+,-,4,true,6 + 6 + 6 + 6 = 24,?,
+,-,5,true,24 + 24 + 24 + 24 + 24 =120,?,
+,-,6,false,-,120,
+,,,,,,
